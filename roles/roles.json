@@ -1,0 +1,30 @@
+{
+  "setups":[
+    {
+      "mode":"quickMatch",
+      "setupVariations":[
+        {
+          "chance":100,
+          "roles":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+        }
+      ]
+    }
+  ],
+  "roleList":[
+    {
+      "numericalID":0,
+      "symbol":"unknown",
+      "roleName":"Unknown",
+      "roleDescription":"This player's role has been hidden.",
+      "aura":"black",
+      "team":"none",
+      "abilities":[
+        {
+          "symbol":"skipDiscussion",
+          "iconSymbol":"skipDiscussion",
+          "conditions":["eightPlayers", "alive"]
+        }
+      ]
+    }
+  ]
+}
